@@ -12,6 +12,7 @@
 		0893F6631F5FFF700050277E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0893F6611F5FFF700050277E /* Main.storyboard */; };
 		0893F6651F5FFF700050277E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0893F6641F5FFF700050277E /* Assets.xcassets */; };
 		0893F6681F5FFF700050277E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0893F6661F5FFF700050277E /* LaunchScreen.storyboard */; };
+		0893F6701F5FFF8D0050277E /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0893F66F1F5FFF8D0050277E /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0893F6641F5FFF700050277E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0893F6671F5FFF700050277E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0893F6691F5FFF700050277E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0893F66F1F5FFF8D0050277E /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0893F65D1F5FFF700050277E /* AppDelegate.swift */,
 				0893F65F1F5FFF700050277E /* ViewController.swift */,
+				0893F66F1F5FFF8D0050277E /* Shaders.metal */,
 				0893F6611F5FFF700050277E /* Main.storyboard */,
 				0893F6641F5FFF700050277E /* Assets.xcassets */,
 				0893F6661F5FFF700050277E /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0893F6701F5FFF8D0050277E /* Shaders.metal in Sources */,
 				0893F6601F5FFF700050277E /* ViewController.swift in Sources */,
 				0893F65E1F5FFF700050277E /* AppDelegate.swift in Sources */,
 			);
